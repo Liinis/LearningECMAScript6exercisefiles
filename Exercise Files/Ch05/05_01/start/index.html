@@ -17,6 +17,9 @@
 	};
 
 	console.log("zero seconds");
+	delay("10 min").then(msg => msg.toUpperCase())
+		.then(msg => `${msg}!!!!!!!`)
+		.then(msg => console.log(msg));
 	delay(2).then(msg => msg.toUpperCase())
 		.then(msg => `${msg}!!!!!!!`)
 		.then(msg => console.log(msg));
